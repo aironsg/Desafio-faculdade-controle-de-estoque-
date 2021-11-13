@@ -9,7 +9,7 @@ public class ControleEstoque implements RegrasDeNegocios {
 
 	public static List<Produto> produtos = new ArrayList<Produto>();
 
-	@SuppressWarnings("static-access")
+	
 	@Override
 	public void adicionarProdutos(Produto produto) {
 
